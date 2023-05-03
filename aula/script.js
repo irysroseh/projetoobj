@@ -19,7 +19,7 @@ const reviews = [
         id: 3,
         name: "Peter Jones",
         job: "Intern",
-        image: "https://images2.imgbox.com/56/88/oJvFN315_o.jpeg",
+        image: "https://pbs.twimg.com/media/EVA7xYxXkAAkQ7T.jpg",
         text: "Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa."
     },
 
@@ -27,7 +27,7 @@ const reviews = [
         id: 4,
         name: "Bill Anderson",
         job: "The Boss",
-        image: "https://images2.imgbox.com/8b/1c/vwWNTsCD_o.jpeg",
+        image: "https://images2.imgbox.com/8b/1c/vwWNTsCd_o.jpeg",
         text: "Edison bulp put a bird on it humblebrag, marfa pok pok heirloom fashion axe crazy stumptown venmo actually seitan."
     },
 ];
@@ -38,9 +38,9 @@ const job = document.getElementById('job')
 const image = document.getElementById('image-profile')
 const information = document.getElementById('description')
 
-const prevButton = document.querySelector('.prev-Button')
-const nextButton = document.querySelector('author')
-const randomButton = document.querySelector('author')
+const prevButton = document.querySelector('.prev-button')
+const nextButton = document.querySelector('.next-button')
+const randomButton = document.querySelector('.random-button')
 
 let currentItem = 0;
 
@@ -76,4 +76,3 @@ nextButton. addEventListener('click', () =>{
  
 
 
- 
